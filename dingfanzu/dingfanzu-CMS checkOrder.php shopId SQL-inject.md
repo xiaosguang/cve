@@ -2,7 +2,7 @@
 
 **Exploit Title: dingfanzu-CMS checkOrder.php shopId SQL inject**
 
-**Exploit Author: https://github.com/xiaosguang/cve/dingfanzu**
+**Exploit Author: https://github.com/xiaosguang/cve/blob/main/dingfanzu**
 
 **Vendor Homepage: https://github.com/geeeeeeeek/dingfanzu**
 
