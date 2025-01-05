@@ -41,11 +41,14 @@ Priority: u=0, i
 1. Login the CMS. Admin Default Access: Email: admin Password: admin
 
 2. Open Page http://aaa.com/HCS/public_html/admin/process.php?id=21&name=ALvin%20Gumatay
-![image-20250106061315590](dingfanzu-CMS%20checkOrder.php%20shopId%20SQL-inject.assets/image-20250106061315590.png)
+![image-20250106061315590](https://github.com/user-attachments/assets/98472ccb-916a-42de-ad9d-827e04f2b087)
+
 
 Change the parameter 21 of id to 21'+and+sleep(3)--+, and find that the sleep function is executed.
 
-![image-20250106061825321](dingfanzu-CMS%20checkOrder.php%20shopId%20SQL-inject.assets/image-20250106061825321.png)
+![image-20250106061825321](https://github.com/user-attachments/assets/7c34abf8-1377-4a4d-b2fa-838fb6494209)
 
-![image-20250106061928651](dingfanzu-CMS%20checkOrder.php%20shopId%20SQL-inject.assets/image-20250106061928651.png)
+
+![image-20250106061928651](https://github.com/user-attachments/assets/04fb3cc4-f648-48f2-aa99-71250144dfcb)
+
 
