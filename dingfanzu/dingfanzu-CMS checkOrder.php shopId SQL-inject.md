@@ -2,7 +2,7 @@
 
 **Exploit Title: dingfanzu-CMS checkOrder.php shopId SQL inject**
 
-**Exploit Author: webraybtl@webray.com.cn inc**
+**Exploit Author: https://github.com/xiaosguang/cve/dingfanzu**
 
 **Vendor Homepage: https://github.com/geeeeeeeek/dingfanzu**
 
@@ -16,7 +16,7 @@
 
 The reason for the SQL injection vulnerability is that the website application does not verify the validity of the data submitted by the user to the server (type, length, business parameter validity, etc.), and does not effectively filter the data input by the user with special characters , so that the user's input is directly brought into the database for execution, which exceeds the expected result of the original design of the SQL statement, resulting in a SQL injection dingfanzu-CMS does not filter the content correctly at the "checkOrder.php" shopId module, resulting in the generation of SQL injection.
 
-The path to the vulnerability：http://127.0.0.1/admin/checkOrder.php?shopId=0002
+The path to the vulnerability：/admin/checkOrder.php?shopId=
 
     Payload used:
 
@@ -41,10 +41,12 @@ Connection: keep-alive
 
 The code does not validate the input data and does not use precompilation technology
 
-![image-20250106015104794](dingfanzu-CMS%20checkOrder.php%20shopId%20SQL-inject.assets/image-20250106015104794.png)
+
+![image-20250106015104794](https://github.com/user-attachments/assets/2780414f-c453-4396-b332-3b054080ccb6)
 
 
 
 Practical verification
 
-![image-20250106021003686](dingfanzu-CMS%20checkOrder.php%20shopId%20SQL-inject.assets/image-20250106021003686.png)
+![image-20250106021003686](https://github.com/user-attachments/assets/656d9fab-e036-4d83-9bf0-06a19b94a48c)
+
